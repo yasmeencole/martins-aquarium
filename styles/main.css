@@ -9,21 +9,23 @@ h1 {
     font-size: 24px;
 }
 .containerLeft {
-    border: yellowgreen solid 4px;
+    border: rgb(83, 124, 1) solid 4px;
     display: flex;
     flex-basis: 25%;
+    flex-wrap: wrap;
 }
 .containerLeft_fishList_Box {
     border: solid yellow 4px;
     display: flex;
     padding: 5px;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .fishCardBox {
     display: block;
-    margin: 10px;
+    margin: 5px;
     background-color: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
 }
 .fishCard {
@@ -31,10 +33,11 @@ h1 {
     padding: 20px;
     margin: 5px;
     border: dotted 2px black;
+    width: 300px;
 }
 .fishCard__name {
     font-size: 24px;
-    border: dotted lightgreen 2px;
+    border: dotted rgb(14, 51, 14) 2px;
     text-align: center;
 }
 .fish__Img {
@@ -48,11 +51,12 @@ h1 {
 }
 .contentContainer {
     display: flex;
+    flex-direction: row;
 }
 
 .quoteCard {
     display: flex;
-    border: solid #d386ff 4px;
+    border: solid #531379 4px;
     justify-content: end;
     flex-basis: 25%;
 }
@@ -107,4 +111,7 @@ footer {
     background: rgb(42, 69, 78);
     color: white;
     font-size: 16px;
+}
+.fishCard__species {
+    font-style: italic;
 }
