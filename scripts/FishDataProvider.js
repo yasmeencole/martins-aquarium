@@ -32,6 +32,7 @@ const fishCollection = [
         food: "Small Mantis Shrimp"
     }
 ]
+
 export const useFish = () => {
     return fishCollection.slice()
 }
