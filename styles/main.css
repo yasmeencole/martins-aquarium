@@ -35,7 +35,7 @@ h1 {
     font-size: 24px;
     text-align: center;
 }
-.fish__Img {
+.fish__image image--card {
     width: 200px;
     border-radius: 2px;
 }
