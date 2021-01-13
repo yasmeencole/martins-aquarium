@@ -4,22 +4,16 @@ main {
 h1 {
     text-align: center;
 }
+
 .maintenanceTips {
     text-align: center;
     font-size: 24px;
 }
+/* this is the container that holds everthing to the left */
 .containerLeft {
-    border: rgb(83, 124, 1) solid 4px;
     display: flex;
     flex-basis: 25%;
     flex-wrap: wrap;
-}
-.containerLeft_fishList_Box {
-    border: solid yellow 4px;
-    display: flex;
-    padding: 5px;
-    flex-wrap: wrap;
-    flex-direction: row;
 }
 /* parent container for fish box, travel quotes and travel locations */
 .fishCardBox {
@@ -27,23 +21,23 @@ h1 {
     margin: 5px;
     background-color: white;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 2px;
+    text-align: center;
 }
+/* this is the fish card */
 .fishCard {
     display: block;
-    padding: 15px;
-    margin: 5px;
-    border: dotted 2px black;
+    padding: 10px;
     width: 300px;
 }
+/* this is the actual fish name text */
 .fishCard__name {
     font-size: 24px;
-    border: dotted rgb(14, 51, 14) 2px;
     text-align: center;
 }
 .fish__Img {
     width: 200px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .containerRight {
     border: solid violet 4px;
@@ -68,7 +62,7 @@ h1 {
     justify-content: flex-end;
     list-style: none;
     margin: 0; 
-    background: rgb(42, 69, 78);
+    background: rgb(44, 66, 78);
 }
 
 .navigation a {
@@ -77,7 +71,7 @@ h1 {
     padding: 1em;
     color: white;
 }
-
+/* this is the hover */
 .navigation a:hover {
     background: #c26c26;
 }
@@ -122,4 +116,9 @@ footer {
 }
 .locationCard {
     display: flex;
+}
+.header__img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
 }
