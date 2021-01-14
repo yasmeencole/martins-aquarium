@@ -31,7 +31,7 @@ h1 {
     width: 300px;
 }
 /* this is the actual fish name text */
-.fishCard__name {
+.fish__name {
     font-size: 24px;
     text-align: center;
 }
@@ -39,19 +39,14 @@ h1 {
     width: 200px;
     border-radius: 2px;
 }
+/* this is for thr aside */
 .containerRight {
-    border: solid violet 4px;
     justify-content: end;
     flex-basis: 25%;
 }
-.contentContainer {
-    display: flex;
-    flex-direction: row;
-}
-
+/* this is the section for the quotes */
 .quoteCard {
     display: flex;
-    border: solid #531379 4px;
     justify-content: end;
     flex-basis: 25%;
     padding: 1em;
@@ -108,7 +103,7 @@ footer {
     color: white;
     font-size: 16px;
 }
-.fishCard__species {
+.fish__species {
     font-style: italic;
 }
 .containerLeft__travelQuotes {
