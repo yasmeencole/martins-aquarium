@@ -9,6 +9,7 @@ const fishCollection = [
     },
 
     {
+        image: "https://www.liveaquaria.com/images/categories/large/lg_Koi_Angel_89611.jpg",
         name: "Koi Angelfish",
         species: "Pterophyllum scalare",
         location: "Brazil",
@@ -17,6 +18,7 @@ const fishCollection = [
     },
 
     {
+        image: "https://www.liveaquaria.com/images/categories/large/lg_72329_Royal_Gramma_Basslet.jpg",
         name: "Gramma loreto",
         species: "Hypancistrus zebra",
         location: "Caribbean",
@@ -25,10 +27,11 @@ const fishCollection = [
     },
 
     {
+        image: "https://www.liveaquaria.com/images/categories/large/lg_90003_OrchidDottyback.jpg",
         name: "Orchid Dottyback",
         species: "Pseudochromis fridmani",
         location: "Red Sea",
-        length: "3/4inch - 2-1/2inch",
+        length: "3/4 inch - 2 1/2inch",
         food: "Small Mantis Shrimp"
     }
 ]
