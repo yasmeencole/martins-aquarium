@@ -5,10 +5,29 @@ h1 {
     text-align: center;
 }
 
-.maintenanceTips {
+/* .maintenanceTips {
     text-align: center;
     font-size: 24px;
+} */
+
+aside {
+    width: 40%;
+    padding-left: .2rem;
+    margin-left: .2rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #6a7f8a;
+    color: #122e3b;
 }
+
+aside > p {
+    margin: .5rem;
+}
+
+/* p {
+    font-family: 'Fira Sans', sans-serif;
+} */
+
+
 /* this is the container that holds everthing to the left */
 .containerLeft {
     display: flex;
@@ -36,8 +55,11 @@ h1 {
     text-align: center;
 }
 .fish__image image--card {
-    width: 200px;
-    border-radius: 2px;
+    /* width: 200px;
+    border-radius: 2px; */
+    width: 100%;
+    object-fit: scale-down;
+    max-width: 300px;
 }
 /* this is for thr aside */
 .containerRight {
