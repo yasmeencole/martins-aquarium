@@ -18,6 +18,7 @@ export const FishList = () => {
     // Generate all of the HTML for all of the fish
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
+        debugger
         /*
             Invoke the Fish component function
             and pass the current fish object as an argument.
